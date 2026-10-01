@@ -1,0 +1,32 @@
+{
+  "name": "simana-sandesh-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "nodemon server.js",
+    "seed": "node src/seed.js",
+    "seed:sample": "node src/seed.js --sample"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cloudinary": "^2.7.0",
+    "const": "^1.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.0",
+    "morgan": "^1.12.1",
+    "multer": "^2.0.2",
+    "nodemon": "^3.1.14",
+    "zod": "^3.25.76"
+  }
+}
